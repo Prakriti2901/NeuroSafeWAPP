@@ -4,10 +4,10 @@ import pickle
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 import streamlit.components.v1 as components
 import sys
-sys.path.append("C:/Users/Prakriti Aayansh/OneDrive/Desktop/NeuroSafe/MachineLearning")
+sys.path.append(r"C:\Users\Prakriti Aayansh\OneDrive\Desktop\NeuroSafeWAPP")
 
 # Load the trained model
-model_path = r"C:\Users\Prakriti Aayansh\OneDrive\Desktop\NeuroSafe\MachineLearning\rf_model_resample.pkl"
+model_path = r"C:\Users\Prakriti Aayansh\OneDrive\Desktop\NeuroSafeWAPP\rf_model_resample.pkl"
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
     
