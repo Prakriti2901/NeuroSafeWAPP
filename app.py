@@ -4,10 +4,20 @@ import pickle
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 import streamlit.components.v1 as components
 import sys
+import os
+from pathlib import Path
+
 sys.path.append(r"C:\Users\Prakriti Aayansh\OneDrive\Desktop\NeuroSafeWAPP")
 
+# Determine the environment and set the model path
+if os.path.exists(r"C:\Users\Prakriti Aayansh\OneDrive\Desktop\NeuroSafeWAPP\rf_model_resample.pkl"):
+    # Local machine path
+    model_path = r"C:\Users\Prakriti Aayansh\OneDrive\Desktop\NeuroSafeWAPP\rf_model_resample.pkl"
+else:
+    # Path for Streamlit deployment
+    model_path = Path(__file__).parent / 'rf_model_resample.pkl'
+
 # Load the trained model
-model_path = r"C:\Users\Prakriti Aayansh\OneDrive\Desktop\NeuroSafeWAPP\rf_model_resample.pkl"
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
     
