@@ -20,7 +20,7 @@ else:
 # Load the trained model
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
-    
+
 # Function to preprocess user input data
 def preprocess_input(df_input):
     # Apply the same preprocessing steps as done during training
@@ -213,11 +213,6 @@ def main():
         with st.expander("What kind of data do I need to provide for the prediction?"):
             st.write("""
             **You will need to provide information such as age, gender, blood pressure, cholesterol levels, smoking status, physical activity, and other relevant health indicators.**
-            """)
-
-        with st.expander("What are the early warning signs and symptoms of stroke?"):
-            st.write("""
-            **Early signs include sudden numbness or weakness, confusion, trouble speaking or understanding speech, trouble seeing, severe headache, and trouble walking or loss of balance. Learn more about early warning signs and how to prevent stroke.**
             """)
 
         with st.expander("How accurate is the prediction?"):
