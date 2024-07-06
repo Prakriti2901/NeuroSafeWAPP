@@ -31,7 +31,7 @@ FAQs Section: answered common doubts related to stroke and the web app's functio
 ![WhatsApp Image 2024-07-06 at 22 08 29_a3f98662](https://github.com/Prakriti2901/NeuroSafeWAPP/assets/122342001/0b74c2f3-ace3-4312-9354-6c4d6b63911e)
 ![WhatsApp Image 2024-07-06 at 22 08 51_4886c497](https://github.com/Prakriti2901/NeuroSafeWAPP/assets/122342001/c7b16e69-41e6-458d-b8ec-eecb614dd7b2)
 
-About page - including author details:-
+**About page - including author details:-**
 
 ![WhatsApp Image 2024-07-06 at 22 07 57_f42b39eb](https://github.com/Prakriti2901/NeuroSafeWAPP/assets/122342001/eb289e12-2ba7-4c3e-a748-809300facebc)
 
